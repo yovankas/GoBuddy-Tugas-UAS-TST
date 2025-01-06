@@ -1,0 +1,168 @@
+DEBUG - 2025-01-05 10:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-05 10:21:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "recomm\hotels_search.php"
+[Method: GET, Route: hotels/search]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('recomm\\hotels_search.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('recomm\\hotels_search', [], true)
+ 3 APPPATH/Controllers/HotelsController.php(94): view('recomm\\hotels_search')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HotelsController->search()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelsController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-05 10:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:21:37 --> Executing command: node "/home/vol8_8/iceiy.com/icei_38009888/htdocs/yovanka/CodeIgniter4-develop/app/ThirdParty/puppeteer/scrapeGoogleFlights.js" "" "" ""
+CRITICAL - 2025-01-05 10:21:37 --> Error: Call to undefined function exec()
+[Method: GET, Route: flights]
+in APPPATH/Libraries/GoogleFlightsScraper.php on line 31.
+ 1 APPPATH/Controllers/FlightsController.php(29): App\Libraries\GoogleFlightsScraper->scrapeFlights('JKT', 'SIN', '2025-01-06')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FlightsController->scrape()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlightsController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-05 10:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:26:31 --> Executing command: node "/home/vol8_8/iceiy.com/icei_38009888/htdocs/yovanka/CodeIgniter4-develop/app/ThirdParty/puppeteer/scrapeGoogleFlights.js" "" "" ""
+CRITICAL - 2025-01-05 10:26:31 --> Error: Call to undefined function exec()
+[Method: GET, Route: flights]
+in APPPATH/Libraries/GoogleFlightsScraper.php on line 31.
+ 1 APPPATH/Controllers/FlightsController.php(29): App\Libraries\GoogleFlightsScraper->scrapeFlights('JKT', 'SIN', '2025-01-06')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FlightsController->scrape()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlightsController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-05 10:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:32:51 --> Executing command: node    
+CRITICAL - 2025-01-05 10:32:51 --> Error: Call to undefined function App\Libraries\proc_open()
+[Method: GET, Route: flights]
+in APPPATH/Libraries/GoogleFlightsScraper.php on line 37.
+ 1 APPPATH/Controllers/FlightsController.php(29): App\Libraries\GoogleFlightsScraper->scrapeFlights('JKT', 'SIN', '2025-01-05')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FlightsController->scrape()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlightsController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-05 10:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:35:13 --> Executing command: node    
+CRITICAL - 2025-01-05 10:35:13 --> Error: Call to undefined function proc_open()
+[Method: GET, Route: flights]
+in APPPATH/Libraries/GoogleFlightsScraper.php on line 37.
+ 1 APPPATH/Controllers/FlightsController.php(29): App\Libraries\GoogleFlightsScraper->scrapeFlights('JKT', 'SIN', '2025-01-05')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FlightsController->scrape()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlightsController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-05 10:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:36:37 --> Executing command: node     2>&1
+CRITICAL - 2025-01-05 10:36:37 --> Error: Call to undefined function shell_exec()
+[Method: GET, Route: flights]
+in APPPATH/Libraries/GoogleFlightsScraper.php on line 29.
+ 1 APPPATH/Controllers/FlightsController.php(29): App\Libraries\GoogleFlightsScraper->scrapeFlights('JKT', 'SIN', '2025-01-05')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FlightsController->scrape()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlightsController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-05 10:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-05 10:38:01 --> GoogleFlightsScraper error: No system execution functions are available. Please contact your server administrator to enable at least one of: exec, shell_exec, proc_open, passthru, or system
+ERROR - 2025-01-05 10:38:01 --> FlightsController error: No system execution functions are available. Please contact your server administrator to enable at least one of: exec, shell_exec, proc_open, passthru, or system
+DEBUG - 2025-01-05 10:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-05 10:38:27 --> GoogleFlightsScraper error: No system execution functions are available. Please contact your server administrator to enable at least one of: exec, shell_exec, proc_open, passthru, or system
+ERROR - 2025-01-05 10:38:27 --> FlightsController error: No system execution functions are available. Please contact your server administrator to enable at least one of: exec, shell_exec, proc_open, passthru, or system
+DEBUG - 2025-01-05 10:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-05 10:40:07 --> Error: Call to undefined function popen()
+[Method: GET, Route: flights]
+in APPPATH/Libraries/GoogleFlightsScraper.php on line 20.
+ 1 APPPATH/Controllers/FlightsController.php(29): App\Libraries\GoogleFlightsScraper->scrapeFlights('JKT', 'medan', '2025-01-05')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FlightsController->scrape()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlightsController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-05 10:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:41:32 --> Executing command: node "/home/vol8_8/iceiy.com/icei_38009888/htdocs/yovanka/CodeIgniter4-develop/app/ThirdParty/puppeteer/scrapeGoogleFlights.js" "" "" ""
+CRITICAL - 2025-01-05 10:41:32 --> Error: Call to undefined function App\Libraries\exec()
+[Method: GET, Route: flights]
+in APPPATH/Libraries/GoogleFlightsScraper.php on line 31.
+ 1 APPPATH/Controllers/FlightsController.php(29): App\Libraries\GoogleFlightsScraper->scrapeFlights('JKT', 'medan', '2025-01-05')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FlightsController->scrape()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlightsController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-05 10:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:47:38 --> Executing command: node "/home/vol8_8/iceiy.com/icei_38009888/htdocs/yovanka/CodeIgniter4-develop/app/ThirdParty/puppeteer/scrapeGoogleFlights.js" "" "" ""
+ERROR - 2025-01-05 10:47:38 --> GoogleFlightsScraper error: No suitable function available to execute command
+ERROR - 2025-01-05 10:47:38 --> FlightsController error: No suitable function available to execute command
+DEBUG - 2025-01-05 10:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:47:45 --> Executing command: node "/home/vol8_8/iceiy.com/icei_38009888/htdocs/yovanka/CodeIgniter4-develop/app/ThirdParty/puppeteer/scrapeGoogleFlights.js" "" "" ""
+ERROR - 2025-01-05 10:47:45 --> GoogleFlightsScraper error: No suitable function available to execute command
+ERROR - 2025-01-05 10:47:45 --> FlightsController error: No suitable function available to execute command
+DEBUG - 2025-01-05 10:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:49:55 --> Current working directory: /home/vol8_8/iceiy.com/icei_38009888/htdocs/yovanka/CodeIgniter4-develop/public
+CRITICAL - 2025-01-05 10:49:55 --> Error: Call to undefined function App\Libraries\exec()
+[Method: GET, Route: flights]
+in APPPATH/Libraries/GoogleFlightsScraper.php on line 53.
+ 1 APPPATH/Controllers/FlightsController.php(27): App\Libraries\GoogleFlightsScraper->scrapeFlights('JKT', 'medan', '2025-01-05')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FlightsController->scrape()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlightsController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-05 11:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 11:01:05 --> Executing command: node "/home/vol8_8/iceiy.com/icei_38009888/htdocs/yovanka/CodeIgniter4-develop/app/ThirdParty/puppeteer/scrapeGoogleFlights.js" "" "" ""
+CRITICAL - 2025-01-05 11:01:05 --> Error: Call to undefined function App\Libraries\exec()
+[Method: GET, Route: flights]
+in APPPATH/Libraries/GoogleFlightsScraper.php on line 31.
+ 1 APPPATH/Controllers/FlightsController.php(29): App\Libraries\GoogleFlightsScraper->scrapeFlights('JKT', 'medan', '2025-01-05')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FlightsController->scrape()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlightsController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-05 23:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 23:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 23:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 23:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 23:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 23:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 23:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-05 23:26:54 --> FlightsController error: API request failed with status code: 404
