@@ -4,7 +4,7 @@ GoBuddy is an API-based platform designed to help users efficiently plan and man
 
 ## Access the Service  
 To access the live service, please visit the following link:  
-[gobuddyies.iceiy.com/yovanka/CodeIgniter4-development/public/](http://gobuddyies.iceiy.com/yovanka/CodeIgniter4-development/public/)
+[gobuddyies.iceiy.com/yovanka/CodeIgniter4-develop/public/](http://gobuddyies.iceiy.com/yovanka/CodeIgniter4-develop/public/)
 
 ## System Requirements  
 - PHP version 7.4 or higher  
